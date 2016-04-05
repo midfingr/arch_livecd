@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Install Spice
+Terminal=false
+Name=Install Spice
+Exec=sudo lxterminal -e /abif-master/abif
+Type=Application
+Icon=distributor-logo-archlinux

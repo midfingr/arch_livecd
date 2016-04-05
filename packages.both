@@ -1,0 +1,123 @@
+# xorg
+xorg-server
+xorg-xinit
+xorg-twm
+xterm
+
+# vbox
+virtualbox-guest-utils
+virtualbox-guest-dkms
+
+# audio
+alsa-utils
+
+# video
+mesa
+xf86-video-vmware
+xf86-video-ark
+xf86-video-ati
+xf86-video-fbdev
+xf86-video-glint
+xf86-video-i128
+xf86-video-intel
+xf86-video-mach64
+xf86-video-neomagic
+xf86-video-nouveau
+xf86-video-nv
+xf86-video-openchrome
+xf86-video-r128
+xf86-video-savage
+xf86-video-siliconmotion
+xf86-video-sis
+xf86-video-tdfx
+xf86-video-trident
+
+# base
+base-devel
+wpa_supplicant
+gnome-keyring
+
+# browser
+firefox
+
+# desktop
+cinnamon
+
+# system
+os-prober
+gparted
+lxdm
+
+# goodies
+lxterminal
+leafpad
+xdg-user-dirs
+bash-completion
+ncdu
+file-roller
+parcellite
+unrar
+p7zip
+mlocate
+
+# themes
+numix-themes
+faenza-icon-theme
+
+# installer
+wipe
+geany
+
+# arch iso
+arch-install-scripts
+b43-fwcutter
+btrfs-progs
+clonezilla
+ddrescue
+dhclient
+dialog
+dmraid
+dnsmasq
+dnsutils
+dosfstools
+ethtool
+f2fs-tools
+fsarchiver
+gpm
+gptfdisk
+grub
+hdparm
+ipw2100-fw
+ipw2200-fw
+irssi
+lftp
+mtools
+nfs-utils
+nilfs-utils
+nmap
+ntfs-3g
+ntp
+openconnect
+partclone
+parted
+partimage
+ppp
+pptpclient
+refind-efi
+rfkill
+rp-pppoe
+rsync
+smartmontools
+speedtouch
+sudo
+tcpdump
+testdisk
+usb_modeswitch
+vim-minimal
+vpnc
+wget
+wireless_tools
+wpa_actiond
+wvdial
+xl2tpd
+zd1211-firmware

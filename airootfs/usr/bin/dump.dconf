@@ -1,0 +1,84 @@
+[org/cinnamon]
+next-applet-id=15
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:panel-launchers@cinnamon.org:2', 'panel1:left:3:window-list@cinnamon.org:3', 'panel1:right:0:notifications@cinnamon.org:4', 'panel1:right:1:user@cinnamon.org:5', 'panel1:right:2:removable-drives@cinnamon.org:6', 'panel1:right:3:keyboard@cinnamon.org:7', 'panel1:right:4:bluetooth@cinnamon.org:8', 'panel1:right:5:network@cinnamon.org:9', 'panel1:right:6:sound@cinnamon.org:10', 'panel1:right:7:power@cinnamon.org:11', 'panel1:right:8:systray@cinnamon.org:12', 'panel1:right:9:calendar@cinnamon.org:13', 'panel1:right:10:windows-quick-list@cinnamon.org:14']
+enabled-desklets=@as []
+panel-launchers=['DEPRECATED']
+
+[org/cinnamon/settings-daemon/peripherals/keyboard]
+numlock-state='on'
+
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom1]
+binding=['<Super>w']
+command='firefox'
+name='Firefox'
+
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom0]
+binding=['<Primary><Alt>n']
+command='leafpad'
+name='Text'
+
+[org/cinnamon/desktop/keybindings]
+custom-list=['custom0']
+
+[org/cinnamon/desktop/keybindings/media-keys]
+home=['<Alt>h', 'XF86Explorer']
+
+[org/cinnamon/desktop/media-handling]
+autorun-never=false
+
+[org/cinnamon/desktop/applications/terminal]
+exec='lxterminal'
+
+[org/cinnamon/desktop/background]
+picture-uri='file:///usr/share/backgrounds/gnome/Blinds.jpg'
+color-shading-type='solid'
+primary-color='#023c88'
+picture-options='zoom'
+secondary-color='#5789ca'
+
+[org/cinnamon/desktop/background/slideshow]
+image-source='directory:///home/liveuser/Pictures'
+random-order=true
+delay=5
+slideshow-enabled=true
+
+[org/cinnamon/desktop/interface]
+icon-theme='Faenza-Dark'
+clock-show-seconds=true
+clock-use-24h=false
+gtk-theme='Numix'
+first-day-of-week=7
+
+[org/cinnamon/desktop/wm/preferences]
+theme='Numix'
+
+[org/nemo/preferences]
+context-menus-show-all-actions=true
+click-policy='single'
+show-location-entry=true
+thumbnail-limit=uint64 8589934592
+
+[org/nemo/window-state]
+start-with-sidebar=true
+geometry='800x550+195+94'
+maximized=false
+sidebar-bookmark-breakpoint=0
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+sidebar-width=148
+window-position=(215, 87)
+show-size-column=true
+show-hidden=false
+window-size=(778, 562)
+sort-directories-first=false
+date-format='regular'
+sort-order='ascending'
+location-mode='path-bar'
+
+[org/mate/system-monitor]
+current-tab=2
+window-state=(700, 500, 50, 50)
+
+[org/mate/system-monitor/proctree]
+col-22-width=69
