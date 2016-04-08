@@ -47,6 +47,7 @@ cinnamon
 os-prober
 gparted
 lxdm
+mate-system-monitor
 
 # goodies
 lxterminal
