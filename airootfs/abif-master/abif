@@ -1453,6 +1453,10 @@ install_root(){
  
   # user files
   rm -rf $MOUNTPOINT/home/$ISO_USER/Desktop/Spice.desktop 2>>/tmp/.errlog
+  rm -r ${MOUNTPOINT}/home/$ISO_USER/.bash_profile 2>>/tmp/.errlog
+  rm -r ${MOUNTPOINT}/home/$ISO_USER/.xinitrc 2>>/tmp/.errlog
+  rm -r ${MOUNTPOINT}/home/$ISO_USER/.xsession 2>>/tmp/.errlog
+  rm -r ${MOUNTPOINT}/home/$ISO_USER/bash_root 2>>/tmp/.errlog
 
   # clean out archiso files from install
   find ${MOUNTPOINT}/usr/lib/initcpio -name archiso* -type f -exec rm '{}' \;
