@@ -42,6 +42,9 @@ random-order=true
 delay=5
 slideshow-enabled=true
 
+[org/cinnamon/theme]
+name='Void'
+
 [org/cinnamon/desktop/interface]
 icon-theme='Faenza-Dark'
 clock-show-seconds=true
