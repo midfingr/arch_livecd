@@ -1,0 +1,43 @@
+Updated April 2016
+
+- Update the system database (for locate command)
+open a terminal, type: sudo updatedb
+*** Please note there is no output after running the above command ***
+
+- Disable Spice Theme in Startup Applications (via menu search)
+
+- Update the AUR
+- in a terminal type: yaourt -Syyau
+
+- Update System
+- in a terminal type: pacu
+
+- Bash Aliases
+
+open a terminal and type: led & observe the aliases
+most common: psync, pacu, pac and pacs
+- psync = sudo pacman -Syy (update mirrors)
+- pacu = sudo pacman -Su (check and/or install updates)
+- pac = sudo pacman -S (install package(s))
+- pacs = pacman -Ss (search for a package)
+
+- Post Install Cleanup
+Open a terminal a type: post-clean
+This removes leftover files from the installation as well as updating the icon and font caches
+
+###DANGER##
+The following command will remove all open source video drivers and you will need to install them again:
+
+sudo pacman -Rs $(pacman -Qq | grep \^xf86-video-)
+
+The reason for this is to clean up extra disk space used for unneeded xorg-drivers ; virtualbox is NOT affected by the command.
+
+### Please Note ###
+Installation on a system requires you remove the virtualbox guest utilities, disable the service and remove the module. Do to so, proceed with the following:
+
+sudo pacman -Rns virtualbox-guest-utils
+sudo pacman -Rns virtualbox-guest-dkms
+(if present):
+sudo rm /etc/modules-load.d/virtualbox.conf
+
+reboot to make sure the module is cleared 

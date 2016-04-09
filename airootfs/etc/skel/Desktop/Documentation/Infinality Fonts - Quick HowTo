@@ -1,0 +1,45 @@
+Infinality Font Rendering
+
+Youtube Video:
+https://youtu.be/HnA8KS4BGVs
+
+open a terminal and type: fig
+- uncomment the [infinality-bundle] lines (four in all)
+- save and close
+- type su (enter root password)
+- copy & paste the following (press ENTER):
+
+pacman-key -r 962DDE58 && pacman-key -f 962DDE58 && pacman-key --lsign 962DDE58
+
+(this may take a while)
+
+- exit super user mode; type CTRL+d
+- run psync
+
+Install:
+pac freetype2-infinality-ultimate lib32-freetype2-infinality-ultimate
+
+reboot
+
+Install the confiration utilty:
+pac fontconfig-infinality-ultimate
+
+Languages
+
+cd /etc/fonts/conf.d
+sudo ln -s ../conf.avail.infinality/36-repl-missing-glyphs.conf . # Note the dot is included!
+
+Firefox/Chrome
+
+sudo fc-match "monospace"
+
+General
+
+sudo fc-cache -fr
+
+AUR:
+copy and paste:
+yrt ttf-brill otf-neris ttf-aller ttf-envy-code-r
+
+SOURCE: 
+https://wiki.archlinux.org/index.php/Infinality

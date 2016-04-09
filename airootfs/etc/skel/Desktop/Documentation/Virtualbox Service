@@ -1,0 +1,11 @@
+Virtualbox Services
+
+ONLY IF RUNNING IN VIRTUALBOX !!
+
+- open a terminal
+- type: sudo pacman -S linux-headers
+- wait for compilation
+- while still in a terminal type:
+sudo systemctl enable vboxservice
+
+reboot

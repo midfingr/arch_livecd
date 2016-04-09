@@ -1,0 +1,11 @@
+Nvidia 400 series users
+
+To install the proprietary drivers:
+
+- make sure the virtualbox services, modules are removed # see Post Install document
+- install from pacman:
+
+sudo pacman -S nvidia nvidia-libgl
+if asked to remove mesa-libgl, answer yes (y)
+
+Reboot

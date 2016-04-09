@@ -1,0 +1,17 @@
+The FIRST thing to do is to update your system ("$" is the prompt)
+$ sudo pacman -Syyu
+
+if there is an error when updating, check your internet connection. Otherwise, try refreshing
+the package keys (used to verify that packages are official) before trying again
+
+sudo haveged -w 1024
+
+sudo pacman-key --init && sudo pacman-key --populate archlinux
+
+if still not working do the same with this addition i.e.
+
+sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys
+
+sudo pkill haveged
+
+re-sync the mirrors with: psync

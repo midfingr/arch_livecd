@@ -1,0 +1,9 @@
+Post Install Addendum
+Here a some suggested packages you may wish to install
+|----------------------------------|
+Codecs (gstreamer plugins)
+in a terminal issue (copy & paste):
+
+pac gstreamer0.10-bad-plugins gstreamer0.10-base-plugins gstreamer0.10-ffmpeg gstreamer0.10-good-plugins gstreamer0.10-ugly-plugins gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly
+
+pac ffmpegthumbnailer
